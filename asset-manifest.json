@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nick-portfolio/static/css/main.50446c7d.css",
-    "main.js": "/nick-portfolio/static/js/main.b2c2b60f.js",
+    "main.js": "/nick-portfolio/static/js/main.9b1525f2.js",
     "static/js/787.c3d15eb3.chunk.js": "/nick-portfolio/static/js/787.c3d15eb3.chunk.js",
     "static/media/call.gif": "/nick-portfolio/static/media/call.bcefe92003bac1a5b8af.gif",
     "static/media/message.gif": "/nick-portfolio/static/media/message.b5e8f719cd7ea0e2e1e6.gif",
@@ -19,11 +19,11 @@
     "static/media/insta.png": "/nick-portfolio/static/media/insta.56d3c2ef9b43e98875c0.png",
     "index.html": "/nick-portfolio/index.html",
     "main.50446c7d.css.map": "/nick-portfolio/static/css/main.50446c7d.css.map",
-    "main.b2c2b60f.js.map": "/nick-portfolio/static/js/main.b2c2b60f.js.map",
+    "main.9b1525f2.js.map": "/nick-portfolio/static/js/main.9b1525f2.js.map",
     "787.c3d15eb3.chunk.js.map": "/nick-portfolio/static/js/787.c3d15eb3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50446c7d.css",
-    "static/js/main.b2c2b60f.js"
+    "static/js/main.9b1525f2.js"
   ]
 }

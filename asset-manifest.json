@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/nick-portfolio/static/css/main.9ca93f4b.css",
-    "main.js": "/nick-portfolio/static/js/main.b7f086bf.js",
+    "main.css": "/nick-portfolio/static/css/main.77a9b455.css",
+    "main.js": "/nick-portfolio/static/js/main.76490a94.js",
     "static/js/787.c3d15eb3.chunk.js": "/nick-portfolio/static/js/787.c3d15eb3.chunk.js",
+    "static/media/DummyCode.png": "/nick-portfolio/static/media/DummyCode.8b99b469ba5e732435a6.png",
     "static/media/mainsetup.png": "/nick-portfolio/static/media/mainsetup.597fd81a71932a3606ce.png",
     "static/media/call.gif": "/nick-portfolio/static/media/call.f814cc091d525da8ec9c.gif",
-    "static/media/DummyCode.png": "/nick-portfolio/static/media/DummyCode.c7dc638cda1fa24542df.png",
     "static/media/message.gif": "/nick-portfolio/static/media/message.44baa0e1bc4f6952d072.gif",
     "static/media/pin.gif": "/nick-portfolio/static/media/pin.3ea67ee8416946bc75b8.gif",
     "static/media/chair.png": "/nick-portfolio/static/media/chair.0df138ade233fa15c1ab.png",
@@ -13,12 +13,12 @@
     "static/media/monitor.png": "/nick-portfolio/static/media/monitor.8c1ea9cffbadb6f0ccca.png",
     "static/media/insta.png": "/nick-portfolio/static/media/insta.56d3c2ef9b43e98875c0.png",
     "index.html": "/nick-portfolio/index.html",
-    "main.9ca93f4b.css.map": "/nick-portfolio/static/css/main.9ca93f4b.css.map",
-    "main.b7f086bf.js.map": "/nick-portfolio/static/js/main.b7f086bf.js.map",
+    "main.77a9b455.css.map": "/nick-portfolio/static/css/main.77a9b455.css.map",
+    "main.76490a94.js.map": "/nick-portfolio/static/js/main.76490a94.js.map",
     "787.c3d15eb3.chunk.js.map": "/nick-portfolio/static/js/787.c3d15eb3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ca93f4b.css",
-    "static/js/main.b7f086bf.js"
+    "static/css/main.77a9b455.css",
+    "static/js/main.76490a94.js"
   ]
 }

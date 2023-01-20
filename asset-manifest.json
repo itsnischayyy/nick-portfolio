@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/nick-portfolio/static/css/main.c017098f.css",
-    "main.js": "/nick-portfolio/static/js/main.6cb08a2a.js",
+    "main.js": "/nick-portfolio/static/js/main.0dda4e5f.js",
     "static/js/787.c3d15eb3.chunk.js": "/nick-portfolio/static/js/787.c3d15eb3.chunk.js",
     "static/media/DummyCode.png": "/nick-portfolio/static/media/DummyCode.8b99b469ba5e732435a6.png",
     "static/media/main_back.png": "/nick-portfolio/static/media/main_back.f07929ff1d19c4d4f412.png",
     "static/media/main_light_back.png": "/nick-portfolio/static/media/main_light_back.aa03533a9ecbd80b6dde.png",
     "static/media/call.gif": "/nick-portfolio/static/media/call.f814cc091d525da8ec9c.gif",
-    "static/media/man_back.png": "/nick-portfolio/static/media/man_back.f37f3c8478d892fa6181.png",
+    "static/media/man_back.png": "/nick-portfolio/static/media/man_back.633f872c9e52ec9bfbf2.png",
     "static/media/man_vec.png": "/nick-portfolio/static/media/man_vec.b6077d9a724f341c05e3.png",
     "static/media/message.gif": "/nick-portfolio/static/media/message.44baa0e1bc4f6952d072.gif",
     "static/media/man_light_back.png": "/nick-portfolio/static/media/man_light_back.90e023ee2a72a328c969.png",
@@ -21,11 +21,11 @@
     "static/media/monke4.svg": "/nick-portfolio/static/media/monke4.f4e2a9911ceabec93301e8147704cfca.svg",
     "index.html": "/nick-portfolio/index.html",
     "main.c017098f.css.map": "/nick-portfolio/static/css/main.c017098f.css.map",
-    "main.6cb08a2a.js.map": "/nick-portfolio/static/js/main.6cb08a2a.js.map",
+    "main.0dda4e5f.js.map": "/nick-portfolio/static/js/main.0dda4e5f.js.map",
     "787.c3d15eb3.chunk.js.map": "/nick-portfolio/static/js/787.c3d15eb3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c017098f.css",
-    "static/js/main.6cb08a2a.js"
+    "static/js/main.0dda4e5f.js"
   ]
 }

@@ -1,0 +1,268 @@
+// .exp_wrapper{
+//     display: flex;
+//     flex-direction: column;
+//     align-content: center;
+//     justify-content: center;
+//     color: white;
+//     height: 69vh;
+
+//     .exp_title{
+//         display: flex;
+//         align-content: center;
+//     justify-content: center;
+//     }
+
+//     .exp_info{
+//         display: flex;
+//         align-content: center;
+//         justify-content: center;
+
+//         .exp_blocks{
+//             width: 70vw;
+//             display: flex;
+//         flex-direction: row;
+
+//         .block_title{
+//             // border: 2px solid white;
+//             flex-basis: 35%;
+//             display: flex;
+//             justify-content: center;
+
+//             .title_txt{
+//                 display: flex;
+//             align-self: center;
+//             }
+//         }
+//         .block_info{
+//             // border: 2px solid white;
+//             flex-basis: 65%;
+//             display: flex;
+//             align-content: center;
+//             justify-content: center;
+
+//             .block_txt{
+//                 display: flex;
+//             align-self: center;
+//             }
+//         }
+//         }
+//     }
+// }
+
+// .exp_block{
+//     display: flex;
+//     flex-direction: column;
+//     height: 20rem;
+//     width: 42rem;
+//     padding: 50px 50px;
+//     border: 3px solid white;
+//     }
+
+
+// .exp_body{
+//     height: 69vh;
+//     font-family: inconsolata,monospace;
+// }
+
+// .card{
+//         background-color: black;
+//         border: 2px solid white;
+//         color: white;
+//         height: 20rem;
+//         width: 20rem;
+//         margin: 5px 5px;
+//         border-radius: 0;
+//         justify-self: center;
+//         align-self: center;
+//     }
+
+// .card_grp{
+//     display: flex;
+//     justify-content: center;
+//     align-content: center;
+// }
+
+.exp-about-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 7rem 5rem;
+    row-gap: 2/-1px;
+    // padding-top: 5rem;
+    // padding-bottom: 5rem;
+  }
+  .exp_title{
+    font-size: 4rem;
+    color: white;
+    font-weight: 600;
+    justify-self: center;
+    padding-bottom: 5rem;
+  }
+
+  .dummy-code{
+    width: 40%;
+    justify-self: center;
+    opacity: 50%;
+    margin-top: -3rem;
+
+  }
+
+  .exp-about-container .right-about {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 2rem;
+    
+  }
+  .exp-about-container .right-about .about-item {
+    border: 5px solid var(--color-grey-5);
+    // border-radius: 5px;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  .exp-about-container .right-about .about-item:hover {
+    cursor: default;
+    transform: translateY(-5px);
+    transition: all 0.4s ease-in-out;
+    border: 5px solid var(--color-secondary);
+    box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);
+  }
+  .exp-about-container .right-about .about-item .abt-text {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .exp-about-container .right-about .about-item .abt-text .large-text {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color-secondary);
+    margin-left: 1rem;
+  }
+  .large-text1{
+    
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 0, 0, 0.69);
+    text-underline-position: auto;
+  }
+  .large-text2{
+    
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.69);
+    text-underline-position: auto;
+  }
+  .large-text3{
+    
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 255, 0, 0.69);
+    text-underline-position: auto;
+  }
+  .exp-about-container .right-about .about-item .abt-text .small-text {
+    padding-left: 3rem;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: var(--color-grey-1);
+    letter-spacing: 2px;
+  }
+  .exp-about-container .right-about .about-item .abt-text .small-text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 2rem;
+    height: 2px;
+    background-color: var(--color-grey-5);
+  }
+
+
+@media screen and (max-width: 1432px) {
+
+}
+@media screen and (max-width: 1280px) {
+    .exp-about-container .right-about .about-item .abt-text .large-text {
+        font-size: 2.5rem;
+        font-weight: 700;
+      }
+      .exp-about-container .right-about .about-item .abt-text .small-text {
+        padding-left: 2.5rem;
+        font-size: .8rem;
+        letter-spacing: 2px;
+      }
+      .exp-about-container .right-about .about-item .abt-text .small-text::before {
+        top: 10px;
+        width: 1.5rem;
+      }
+
+}
+@media screen and (max-width: 1070px) {
+    .exp-about-container{
+        padding: 2.5rem 2.5rem;
+    }
+    .exp-about-container .right-about {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+}
+@media screen and (max-width: 990px) {
+    .exp-about-container .right-about {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .exp-about-container{
+        padding: 4rem 2.5rem !important;
+      }
+
+}
+@media screen and (max-width: 700px) {
+    .exp-about-container .right-about {
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+}
+
+@media screen and (max-width: 600px) {
+    .exp-about-container {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .exp-about-container .right-about {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    //   .exp-about-container .right-about .about-item .abt-text .large-text {
+    //     font-size: 2rem;
+    //     font-weight: 700;
+    //   }
+    //   .exp-about-container .right-about .about-item .abt-text .small-text {
+    //     padding-left: 2rem;
+    //     font-size: .6rem;
+    //     letter-spacing: .6px;
+    //   }
+  }
+
+@media screen and (max-width: 490px) {
+    .exp-about-container .right-about {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .exp-about-main-container {
+        padding: 2rem 2.5rem !important;
+      }
+
+}
+
+.fa-brands{
+  color: white;
+  font-size: 5rem;
+  align-self: center;
+}
+
+.fswd_brand{
+  display: flex;
+  flex-direction: row;
+}
+
+.fa-code{
+  color: white;
+  font-size: 4rem;
+  align-self: center;
+}
+
+.fa-palette{
+  color: white;
+  font-size: 4rem;
+  align-self: center;
+}

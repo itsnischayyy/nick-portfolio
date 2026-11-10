@@ -1,0 +1,215 @@
+.navbar{
+    // position: fixed;
+	// top: 0;
+	// left: 0;
+	// width: 100%;
+    text-decoration: none;
+    :visited{
+        color: rgb(255, 255, 255);
+    }
+}
+
+.active_link{
+    color: rgb(132, 194, 255) !important;
+}
+
+.nav-link.active{
+    color: rgb(132, 194, 255) !important;
+    // text-decoration: underline rgb(132, 194, 255);
+}
+
+// .nick_link:after {
+//     content: '';
+//     position: absolute;
+//     width: 100%;
+//     transform: scaleX(0);
+//     height: 2px;
+//     bottom: 0;
+//     left: 0;
+//     background-color: #0087ca;
+//     color: rgb(132, 194, 255);
+//     transform-origin: bottom right;
+//     transition: transform 0.25s ease-out;
+//   }
+
+//   .nick_link:hover:after {
+//     transform: scaleX(1);
+//     transform-origin: bottom left;
+//   }
+
+.nav-item{
+    cursor: pointer;
+    font-family:monospace;
+}
+.nav-link{
+    color: rgb(217, 217, 217);
+
+    // @media screen and (max-width: 700px) {
+    //     font-size: .6rem;
+    //   }
+}
+
+.nav-link:hover{
+    color: rgb(132, 194, 255) !important;
+}
+
+.navbar-brand{
+    // cursor: pointer;
+    font-family:monospace;
+    color: rgb(132, 194, 255) !important;
+    font-weight: 600;
+    margin: auto;
+}
+
+.navbar-brand:hover{
+    color: white !important;
+}
+
+.nick-navbar{
+    background: rgba(0, 2, 8, 0.8);
+    // display: flex;
+    z-index: 105;
+}
+
+.container-fluid{
+    display: flex !important;
+}
+
+.nav-header{
+    margin: auto;
+}
+
+.nav-socials{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // margin: 1rem 0 2rem 0;
+    margin: auto;
+}
+.nav-socials li{
+    margin: 0 10px;
+
+    // i{
+    //     color: #fff;
+    // }
+}
+
+.moon_color{
+    color: rgb(255, 208, 0);
+}
+
+.nav-socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-socials a i{
+    font-size: 1.2rem;
+    transition: color .2s ease;
+
+}
+.nav-socials a:hover i{
+    color: var(--color-secondary);
+}
+
+.navbar-nav{
+    position: relative;
+}
+
+.nav-item{
+    
+    font-size: 1.2rem;
+}
+
+.offcanvas.offcanvas-end{
+    width:250px;
+}
+.nick-nav{
+    color: white !important;
+    flex-direction: row !important;
+    padding-right: var(--bs-navbar-nav-link-padding-x) !important;
+    padding-left: var(--bs-navbar-nav-link-padding-x) !important;
+}
+
+
+
+label {
+    position: relative;
+  }
+  label input {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+  label svg {
+    width: 350px;
+    height: auto;
+    display: block;
+  }
+  /* include transitions for the elements modified as the input is checked */
+  label input + svg .light {
+    transition: opacity 0.75s cubic-bezier(0.68, 0.25, 0.265, 1);
+  }
+  label input + svg .translate,
+  label input + svg .rotate,
+  label input + svg .background,
+  label input + svg .astronaut,
+  label input + svg .surfer {
+    transition: transform 0.75s cubic-bezier(0.68, 0.25, 0.265, 1);
+  }
+  /* make the .light element fully transparent to have the .dark variant see through */
+  label input:checked + svg .light {
+    opacity: 0;
+  }
+  /* translate the sun/moon toward the right (by default it is pushed back with a negative translation) */
+  label input:checked + svg .translate {
+    transform: translateX(0px);
+  }
+  /* rotate the moon (by default it is rotated counter-clockwise) */
+  label input:checked + svg .rotate {
+    transform: rotate(0deg);
+  }
+  /* translate the scale the backgrounds to 0
+  this is rather neat, so meant an extra comment
+  - the light background is positioned with two groups, one pushing it below the graphic, one back up; by removing the translation of this last group the background "returns" below the toggle
+  - the dark background is positioned above and with a smaller vertical scale; by removing the translation it is placed in full view and by increasing its scale it's as if the stars would tumble down with different rates
+  */
+  label input:checked + svg .background {
+    transform: translate(0px) scale(1);
+  }
+
+//   nav {
+// 	position: fixed !important;
+// 	top: 0 !important;
+// 	left: 0 !important;
+// 	width: 100% !important;
+// 	// padding: 20px 0;
+// 	text-align: center !important;
+// 	// background: #eee;
+// 	// z-index: 9999;
+// 	transition: all 300ms ease-in-out !important;
+// }
+
+// .scroll-down {
+// 	nav {
+// 		transform: translate3d(0, -100%, 0) !important;
+// 	}
+// }
+
+// // .scroll-up {
+// // 	nav {
+// // 		filter: drop-shadow(0 -10px 20px rgb(126, 104, 186)) !important;
+// // 	}
+// // }
+
+// .menu-is-open {
+// 	overflow: hidden !important;
+
+// 	nav {
+// 		filter: none !important;
+// 	}
+// }

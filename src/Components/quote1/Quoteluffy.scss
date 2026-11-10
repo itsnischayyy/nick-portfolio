@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.mainqcontainer{
+    // background-color: black;
+    height: 69vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+
+}
+
+.quotecontainer{
+    position: absolute;
+    
+    margin: 5rem 5rem;
+    /* flex-basis: 100%; */
+    /* box-sizing: border-box; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* left: 10vmax; */
+}
+
+.quoteluffy{
+    font-weight: 690;
+    // color: rgb(0, 0, 0);
+    font-family: 'Audiowide';
+    text-align: center;
+    z-index: 103;
+    
+    @media all and (max-width: 768px) {
+        color: rgb(132, 194, 255);
+      }
+}
+
+.quotehere{
+    color: rgb(132, 194, 255);
+    // color: rgb(0, 0, 0);
+    // text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-self: start;
+    z-index: 103;
+
+    svg{
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+
+    @media all and (max-width: 768px) {
+        display: none;
+      }
+}
+
+
+// .luffycontainer{
+//     display: flex;
+//     justify-content: center;
+//     img{
+//         width: 25%;
+//         @media screen and (max-width: 600px) {
+//             opacity: .6;
+//             width: 70%;
+//         }
+//     }
+// }
+
+// .quoteluffy:hover ~ cursor{
+//     transform: scale(5);
+// }

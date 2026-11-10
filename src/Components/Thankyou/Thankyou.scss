@@ -1,0 +1,57 @@
+.thank_cont{
+    // position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 5rem 8rem;
+
+    @media screen and (max-width: 600px) {
+        padding: 2rem 2.5rem !important;
+    }
+
+    
+}
+
+.thank_title{
+        color: white;
+        position: relative;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: monospace;
+}
+.thank_img_cont{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.thank_img{
+    position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        object-fit: contain;
+        
+}
+
+#coffee_front{
+    animation: anime 1s infinite ease-in-out alternate;
+}
+
+@keyframes anime{
+    100%{
+        transform: translateY(-1rem);
+    }
+}
+
+.thank_msg{
+    color: white;
+    font-size: 1.5rem;
+    font-family: monospace;
+}
